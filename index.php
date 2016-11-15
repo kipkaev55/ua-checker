@@ -20,7 +20,7 @@ function isMobile()
 }
 
  if(isMobile()) {
-    echo file_get_contents('./mobile.html', true);
+    echo file_get_contents((file_exists('./mobile.html') ? './mobile.html' : './desktop.html'), true);
  } else {
     echo file_get_contents('./desktop.html', true);
  }
