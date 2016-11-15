@@ -1,0 +1,16 @@
+{
+    "name": "kipkaev55/ua-checker",
+    "type": "project",
+    "description" : "",
+    "keywords": ["application", "website", "development", "framework", "PHP", "PHP7"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0",
+        "ua-parser/uap-php": "*"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "minimum-stability": "stable"
+}
