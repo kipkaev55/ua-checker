@@ -98,9 +98,9 @@ function isMobile()
 }
 
 $geo = getGeo();
-$page = file_get_contents('./desktop.html', true);
+$page = file_get_contents('./desktop.tmpl', true);
 if(isMobile()) {
-    $page = file_get_contents((file_exists('./mobile.html') ? './mobile.html' : './desktop.html'), true);
+    $page = file_get_contents((file_exists('./mobile.tmpl') ? './mobile.tmpl' : './desktop.tmpl'), true);
 }
 $locale = file_get_contents('locale.json');
 $jsonLocale = json_decode($locale);
