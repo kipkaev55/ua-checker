@@ -1,0 +1,62 @@
+{
+    "price_current": {
+        "RU": 990,
+        "GE": 66,
+        "BY": 30,
+        "KZ": 5490,
+        "MD": 399,
+        "AZ": null,
+        "UA": 399,
+        "KG": 1690
+    },
+    "price_previous": {
+        "RU": 3960,
+        "GE": 264,
+        "BY": 120,
+        "KZ": 21960,
+        "MD": 1596,
+        "AZ": null,
+        "UA": 1596,
+        "KG": 3380
+    },
+    "price_total": {
+        "RU": 1280,
+        "GE": null,
+        "BY": 35,
+        "KZ": 6490,
+        "MD": null,
+        "AZ": null,
+        "UA": 439,
+        "KG": 1890
+    },
+    "price_delivery": {
+        "RU": 290,
+        "GE": null,
+        "BY": 5,
+        "KZ": 1000,
+        "MD": null,
+        "AZ": null,
+        "UA": 40,
+        "KG": 300
+    },
+    "currency": {
+        "RU": "руб",
+        "GE": null,
+        "BY": "бел.руб",
+        "KZ": "тнг",
+        "MD": null,
+        "AZ": null,
+        "UA": "грн",
+        "KG": "сом"
+    },
+    "country_code": {
+        "RU": "ru",
+        "GE": "ge",
+        "BY": "by",
+        "KZ": "kz",
+        "MD": "md",
+        "AZ": "az",
+        "UA": "ua",
+        "KG": "kg"
+    }
+}
